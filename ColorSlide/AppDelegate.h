@@ -2,8 +2,8 @@
 //  AppDelegate.h
 //  ColorSlide
 //
-//  Created by Alberto Cordero Arellanes on 26/01/15.
-//  Copyright (c) 2015 AlbertoCorderoArellanes. All rights reserved.
+//  Created by Galileo Guzman on 19/01/15.
+//  Copyright (c) 2015 Galileo Guzman. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

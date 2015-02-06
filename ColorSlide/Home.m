@@ -1,9 +1,9 @@
 //
-//  ViewController.m
+//  Home.m
 //  ColorSlide
 //
-//  Created by Alberto Cordero Arellanes on 26/01/15.
-//  Copyright (c) 2015 AlbertoCorderoArellanes. All rights reserved.
+//  Created by Galileo Guzman on 19/01/15.
+//  Copyright (c) 2015 Galileo Guzman. All rights reserved.
 //
 
 #import "Home.h"
@@ -26,9 +26,6 @@ NSTimer *myTimer;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    sleep(5);
-    //self.Color.layer.masksToBounds = YES;
-    //self.Color.layer.cornerRadius = 100;
 
 }
 

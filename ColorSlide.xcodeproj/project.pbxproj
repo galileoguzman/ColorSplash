@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D39A70F21A8455EA00EA1D94 /* color.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = D39A70F11A8455EA00EA1D94 /* color.jpeg */; };
 		D3DAA5D61A76ECB1001BD032 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DAA5D51A76ECB1001BD032 /* main.m */; };
 		D3DAA5D91A76ECB1001BD032 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DAA5D81A76ECB1001BD032 /* AppDelegate.m */; };
 		D3DAA5DC1A76ECB1001BD032 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DAA5DB1A76ECB1001BD032 /* Home.m */; };
@@ -15,6 +14,7 @@
 		D3DAA5E11A76ECB1001BD032 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DAA5E01A76ECB1001BD032 /* Images.xcassets */; };
 		D3DAA5E41A76ECB1001BD032 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3DAA5E21A76ECB1001BD032 /* LaunchScreen.xib */; };
 		D3DAA5F01A76ECB1001BD032 /* ColorSlideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DAA5EF1A76ECB1001BD032 /* ColorSlideTests.m */; };
+		F245DBE81A855EAE008A4DBB /* launchColorSlide.png in Resources */ = {isa = PBXBuildFile; fileRef = F245DBE71A855EAE008A4DBB /* launchColorSlide.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +28,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D39A70F11A8455EA00EA1D94 /* color.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = color.jpeg; sourceTree = "<group>"; };
 		D3DAA5D01A76ECB1001BD032 /* ColorSlide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSlide.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DAA5D41A76ECB1001BD032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3DAA5D51A76ECB1001BD032 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +41,7 @@
 		D3DAA5E91A76ECB1001BD032 /* ColorSlideTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorSlideTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3DAA5EE1A76ECB1001BD032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3DAA5EF1A76ECB1001BD032 /* ColorSlideTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColorSlideTests.m; sourceTree = "<group>"; };
+		F245DBE71A855EAE008A4DBB /* launchColorSlide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchColorSlide.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +65,6 @@
 		D3DAA5C71A76ECB1001BD032 = {
 			isa = PBXGroup;
 			children = (
-				D39A70F11A8455EA00EA1D94 /* color.jpeg */,
 				D3DAA5D21A76ECB1001BD032 /* ColorSlide */,
 				D3DAA5EC1A76ECB1001BD032 /* ColorSlideTests */,
 				D3DAA5D11A76ECB1001BD032 /* Products */,
@@ -84,6 +83,7 @@
 		D3DAA5D21A76ECB1001BD032 /* ColorSlide */ = {
 			isa = PBXGroup;
 			children = (
+				F245DBE61A855E9F008A4DBB /* static */,
 				D3DAA5D71A76ECB1001BD032 /* AppDelegate.h */,
 				D3DAA5D81A76ECB1001BD032 /* AppDelegate.m */,
 				D3DAA5DA1A76ECB1001BD032 /* Home.h */,
@@ -120,6 +120,14 @@
 				D3DAA5EE1A76ECB1001BD032 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F245DBE61A855E9F008A4DBB /* static */ = {
+			isa = PBXGroup;
+			children = (
+				F245DBE71A855EAE008A4DBB /* launchColorSlide.png */,
+			);
+			name = static;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,8 +211,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3DAA5DF1A76ECB1001BD032 /* Main.storyboard in Resources */,
-				D39A70F21A8455EA00EA1D94 /* color.jpeg in Resources */,
 				D3DAA5E41A76ECB1001BD032 /* LaunchScreen.xib in Resources */,
+				F245DBE81A855EAE008A4DBB /* launchColorSlide.png in Resources */,
 				D3DAA5E11A76ECB1001BD032 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
