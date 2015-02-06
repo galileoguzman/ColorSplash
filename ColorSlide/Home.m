@@ -26,9 +26,9 @@ NSTimer *myTimer;
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    sleep(3);
-    self.Color.layer.masksToBounds = YES;
-    self.Color.layer.cornerRadius = 115;
+    sleep(5);
+    //self.Color.layer.masksToBounds = YES;
+    //self.Color.layer.cornerRadius = 100;
 
 }
 
